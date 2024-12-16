@@ -86,6 +86,11 @@
   gap: 50px;
 }
 
+.image {
+	inline-size: 100%;
+	block-size: 100%;
+}
+
 .card__title {
   align-self: flex-start;
   font-size: inherit;
@@ -97,8 +102,7 @@
   box-sizing: content-box;
   position: relative;
   display: flex;
-  border-bottom: 2px solid var(--color-border-card);
-  border-top: 2px solid var(--color-border-card);
+  border-block: 2px solid var(--color-border-card);
 }
 
 .card__content-text {
@@ -163,7 +167,7 @@
   flex-direction: column;
   gap: 26px;
   padding: 26px;
-  padding-right: 25px;
+  padding-inline-end: 25px;
 }
 
 .button {
@@ -376,6 +380,6 @@
   }
 
   .card__content {
-    padding-right: 26px;
+    padding-inline-end: 26px;
   }
 }

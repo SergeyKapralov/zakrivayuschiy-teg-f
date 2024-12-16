@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+	--font-main-style: 'Inter';
+  --font-style-accent: 'PressStart2P';
+  --font-main-weight: 400;
+	--font-title-weight: 700;
+	--font-header-size: clamp(1.531rem, 1.258rem + 1.1vw, 2.031rem);
+	--font-header-text-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+	--block-size-header: clamp(20.438rem, 19.535rem + 3.85vw, 23rem);
+	--color-header-background: #fff;
+	--color-border-card: #000;
+	--color-button-accent: #000;
+	--color-heart-main: red;
+	--color-grid-main: #d3d3d3;
+	--color-grid-accent: #d3d3d300;
+	--color-gradient-main: #e7e7e7;
+	--color-gradient-accent: #1a1a1a;
+	--color-lable-accent: #d8d3d3;
+	--size-dialog: clamp(341px, 320px + 3vw, 357px);
+	--size-padding-dialog:clamp(30px, calc(30px + (10 * ((1440px - 100vw) / 1065))), 40px);
+	--color-dialog-backdrop: rgb(0 0 0 / 0.5);
+}

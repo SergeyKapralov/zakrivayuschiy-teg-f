@@ -87,8 +87,8 @@
 }
 
 .image {
-	inline-size: 100%;
-	block-size: 100%;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .card__title {
@@ -339,9 +339,10 @@
   height: 39px;
 }
 
-#dialog[open] {
+.dialog[open] {
   display: grid;
   gap: 30px;
+  max-block-size: 197px;
   min-inline-size: var(--size-dialog, clamp(341px, 320px + 3vw, 357px));
   padding-inline: var(
     --size-padding-dialog,
@@ -350,7 +351,7 @@
   padding-block: 29px;
 }
 
-#dialog::backdrop {
+.dialog::backdrop {
   background-color: var(--color-dialog-backdrop, rgb(0 0 0 / 0.5));
 }
 
